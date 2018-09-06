@@ -1,0 +1,33 @@
+{
+  "name": "shiver",
+  "version": "0.0.1",
+  "description": "data shiver",
+  "main": "lib/shiver.js",
+  "module": "lib/shiver.esm.js",
+  "unpkg": "lib/shiver.umd.js",
+  "scripts": {
+    "test": "node --experimental-modules ./test/index.mjs",
+    "publishOnly": "npm run test && npm run build",
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ReAlign/data-rules.git"
+  },
+  "keywords": [
+    "data",
+    "rule",
+    "validate",
+    "shiver"
+  ],
+  "author": "Maofeng Zhang <japplet@163.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/appletjs/shiver/issues"
+  },
+  "homepage": "https://github.com/appletjs/shiver#readme",
+  "devDependencies": {
+    "rollup": "^0.65.1",
+    "rollup-plugin-buble": "^0.19.2"
+  }
+}

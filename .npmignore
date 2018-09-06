@@ -1,0 +1,9 @@
+.idea/
+node_modules/
+src/
+test/
+.editorconfig
+.npmignore
+rollup.config.js
+*.lock
+*-lock.json
